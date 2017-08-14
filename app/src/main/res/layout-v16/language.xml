@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pink">
+
+
+    <TextView
+        android:paddingTop="30dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:id="@+id/editText"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/pick_the_language"
+        tools:layout_editor_absoluteY="29dp"
+        tools:layout_editor_absoluteX="8dp"
+        android:textAlignment="center"
+        android:textSize="45sp"
+        android:textStyle="bold"
+        android:fontFamily="cursive"
+        android:textColor="@color/white"/>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:paddingTop="50dp"
+        android:paddingLeft="30dp">
+
+        <RadioGroup
+            android:id="@+id/radio_Group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <RadioButton
+                android:id="@+id/georgian"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/georgian" />
+
+            <RadioButton
+                android:id="@+id/english"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/english"
+                android:checked="true" />
+
+            <RadioButton
+                android:id="@+id/russian"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/russian" />
+
+            <RadioButton
+                android:id="@+id/spanish"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/spanish" />
+
+            <RadioButton
+                android:id="@+id/italian"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/italian"/>
+
+        </RadioGroup>
+
+        <Button
+
+            android:id="@+id/btn_Display"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DONE !" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+

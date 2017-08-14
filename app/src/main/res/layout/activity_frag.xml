@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.natia.cuny.frag"
+    android:orientation="vertical"
+    android:background="@color/Berry"
+    android:id="@+id/fragment_id"
+    android:paddingTop="10dp">
+
+    <RelativeLayout
+        android:id="@+id/ac"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/natia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:fontFamily="cursive"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="148dp"
+            android:layout_marginStart="148dp"
+            android:layout_marginTop="22dp"
+            android:src="@drawable/icon" />
+
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:paddingTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/one"
+            android:textSize="30sp"
+            android:paddingRight="10dp"
+            android:paddingLeft="15dp"
+            android:textAlignment="center"
+            tools:ignore="RtlHardcoded"
+            android:fontFamily="cursive"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:background="#00000000"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:hint="@string/first_class"
+            android:fontFamily="cursive"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/select_time"
+            android:id="@+id/time1"
+            android:textSize="15sp"
+            android:fontFamily="cursive"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:text="@string/two"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:fontFamily="cursive"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:ems="10"
+            android:hint="@string/first_class"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:fontFamily="cursive"
+            android:textStyle="bold"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/select_time"
+            android:id="@+id/time2"
+            android:textSize="15sp"
+            android:fontFamily="cursive"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/three"
+            android:textSize="30sp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:textAlignment="center"
+            android:fontFamily="cursive"
+            android:textStyle="bold"/>
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="@string/first_class"
+            android:background="#00000000"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:fontFamily="cursive"
+            android:textStyle="bold"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/select_time"
+            android:id="@+id/time3"
+            android:textSize="15sp"
+            android:fontFamily="cursive"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/four"
+            android:textSize="30sp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:textAlignment="center"
+            tools:ignore="RtlSymmetry"
+            android:fontFamily="cursive"
+            android:textStyle="bold"/>
+        <EditText
+            android:id="@+id/editText4"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="@string/first_class"
+            android:background="#00000000"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:fontFamily="cursive"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/select_time"
+            android:id="@+id/time4"
+            android:textSize="15sp"
+            android:fontFamily="cursive"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+
+
+    //second part
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/daily_plans"
+            android:textColor="#000000"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:layout_marginTop="29dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:fontFamily="cursive"
+            android:textStyle="bold"/>
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:paddingTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/one"
+            android:textSize="30sp"
+            android:paddingRight="10dp"
+            android:paddingLeft="15dp"
+            android:textAlignment="center"
+            tools:ignore="RtlHardcoded"
+            android:fontFamily="cursive"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/editText11"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:ems="10"
+            android:hint="@string/note"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:fontFamily="cursive"
+            android:textStyle="bold"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/select_time"
+            android:id="@+id/time5"
+            android:textSize="15sp"
+            android:fontFamily="cursive"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:text="@string/two"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:fontFamily="cursive"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/editText22"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:ems="10"
+            android:hint="@string/note"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:fontFamily="cursive"
+            android:textStyle="bold"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/select_time"
+            android:id="@+id/time6"
+            android:textSize="15sp"
+            android:fontFamily="cursive"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/three"
+            android:textSize="30sp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:textAlignment="center"
+            android:fontFamily="cursive"
+            android:textStyle="bold"/>
+        <EditText
+            android:id="@+id/editText33"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="@string/note"
+            android:background="#00000000"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:fontFamily="cursive"
+            android:textStyle="bold"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/select_time"
+            android:id="@+id/time7"
+            android:textSize="15sp"
+            android:fontFamily="cursive"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/four"
+            android:textSize="30sp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:textAlignment="center"
+            tools:ignore="RtlSymmetry"
+            android:fontFamily="cursive"
+            android:textStyle="bold"/>
+        <EditText
+            android:id="@+id/editText44"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="@string/note"
+            android:background="#00000000"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:fontFamily="cursive"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/select_time"
+            android:id="@+id/time8"
+            android:textSize="15sp"
+            android:fontFamily="cursive"
+            android:textStyle="bold"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>
+

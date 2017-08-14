@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">CUNY</string>
+    <string name="one">1</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="two">2</string>
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="saturday">Saturday</string>
+    <string name="sunday">Sunday</string>
+    <string name="bc_note">BC-Note</string>
+
+    <string name="first_class">class</string>
+
+    <string name="select_time">Select Time</string>
+    <string name="daily_plans">Daily Plans</string>
+    <string name="note">note</string>
+    <string name="pick_the_language">Pick the language</string>
+    <string name="georgian">Georgian</string>
+    <string name="english">English</string>
+    <string name="russian">Russian</string>
+    <string name="spanish">Spanish</string>
+    <string name="italian">Italian</string>
+
+</resources>
