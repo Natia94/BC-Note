@@ -40,5 +40,5 @@ XML, JAVA, ANDROID STUDIO.
 HERE ARE SOME SCREENSHOT OF THE APP:
 
 
-<img src="screens/" height="42" width="42">
+<img src="1.png" height="42" width="42">
 
