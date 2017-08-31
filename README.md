@@ -39,6 +39,8 @@ XML, JAVA, ANDROID STUDIO.
  
 HERE ARE SOME SCREENSHOT OF THE APP:
 
-
-<img src="1.png" height="42" width="42">
-
+<img src="flash.png">
+<img src="main.png">
+<img src="1.png">
+<img src="2.png">
+<img src="3.png">
