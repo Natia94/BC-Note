@@ -3,7 +3,7 @@ While I was interned in Georgia, I worked on the project BC-Note - an android ap
 schedule and plans.
 The app had the flash page with the BC campus picture on it, animated transitions between activities, seven colorful 
 buttons(Monday through Sunday), an activity where students save class schedule/notes and time picker feature which allows 
-students to set time. 
+students to set time for each task. 
 The app includes the ability for the user to view it in different languages. 
 
 
@@ -22,9 +22,9 @@ method which gave me the opportunity to have seven different backgroud colors an
 
 ### LANGUAGES/TOOLS USED:
 
-XML, JAVA, ANDROID STUDIO.
+**XML, JAVA, ANDROID STUDIO**
 
  
 ### HERE ARE SOME SCREENSHOT OF THE APP:
 
-<img src="flash.png"> <img src="main.png"> <img src="1.png"> <img src="2.png"> <img src="3.png">
+<img src="flash.png">    <img src="main.png">    <img src="1.png">    <img src="2.png"> <img src="3.png">
